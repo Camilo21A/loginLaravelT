@@ -12,8 +12,14 @@
 
         <!-- Campo: Nombre -->
         <div class="form-group">
-            <label for="name">Nombre completo</label>
+            <label for="name">Nombre</label>
             <input id="name" type="text" name="name" class="form-control" placeholder="Tu nombre" required autofocus>
+        </div>
+
+        <!-- Campo: Apellido -->
+        <div class="form-group">
+            <label for="lastname">Apellido</label>
+            <input id="lastname" type="text" name="lastname" class="form-control" placeholder="Tu apellido" required autofocus>
         </div>
 
         <!-- Campo: Correo -->
